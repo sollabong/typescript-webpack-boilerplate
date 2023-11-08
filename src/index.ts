@@ -1,5 +1,6 @@
 // Import helpers.
 import { setMessage } from '@/helpers/set-message';
+import 'flowbite';
 
 /**
  * Will find #root element and set HTML to "Hello World!".

@@ -2362,6 +2362,11 @@ astral-regex@^2.0.0:
   resolved "https://registry.npmjs.org/astral-regex/-/astral-regex-2.0.0.tgz"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
+auto-prefixer@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.npmjs.org/auto-prefixer/-/auto-prefixer-0.4.2.tgz"
+  integrity sha512-CqXEbEfTNRG2hugs1/O2gqgULWtZd/FLo6lmEpJ1/ZufmFF3VQ5JTvLAP+5mMCPetnlkL6u5T195+TVjYGyjkQ==
+
 autoprefixer@^10.4.15:
   version "10.4.15"
   resolved "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.15.tgz"
