@@ -114,6 +114,7 @@
   "title": "Typescript Webpack Boilerplate",
   "url": "URL",
   "dependencies": {
+    "flagsmith": "^3.21.0",
     "flowbite": "^2.0.0"
   }
 }

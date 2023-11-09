@@ -4372,6 +4372,11 @@ find-versions@^3.0.0:
   dependencies:
     semver-regex "^2.0.0"
 
+flagsmith@^3.21.0:
+  version "3.21.0"
+  resolved "https://registry.npmjs.org/flagsmith/-/flagsmith-3.21.0.tgz"
+  integrity sha512-F0qHhn0NTxUeIZscHtw1izwTY9OUNaAJDOCN2IiSpFUu1diAVL7TncL2bQqCBLYEOHawMOHS7WmcO8oV2/5vLw==
+
 flat-cache@^3.0.4:
   version "3.0.4"
   resolved "https://registry.npmjs.org/flat-cache/-/flat-cache-3.0.4.tgz"
