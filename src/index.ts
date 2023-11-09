@@ -1,15 +1,17 @@
-// Import helpers.
-import { setMessage } from '@/helpers/set-message';
+import flagsmith from 'flagsmith';
 import 'flowbite';
 
-/**
- * Will find #root element and set HTML to "Hello World!".
- */
-function editDom(): void {
-  const root = document.getElementById('root'); // Get root element.
-  if (root) {
-    root.innerHTML = `<p>${setMessage()}</p>`; // Set html of the root element.
-  }
-}
-
-editDom(); // Call editDom.
+flagsmith.init({
+  environmentID: 'dF5aF2UXeRtbCxWg47kbhY',
+  onChange: () => {
+    const freePlan: Node | null = document.getElementById('free-plan');
+    const pricingTable: HTMLElement | null =
+      document.getElementById('pricing-table');
+    if (!flagsmith.hasFeature('feature_free_plan')) {
+      (pricingTable as HTMLElement).removeChild(freePlan as Node);
+      (pricingTable as HTMLElement).classList.remove('lg:grid-cols-4');
+      (pricingTable as HTMLElement).classList.add('lg:grid-cols-3');
+      console.log('feature_free_plan');
+    }
+  },
+});
